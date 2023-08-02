@@ -1,0 +1,6 @@
+/packages
+/.vs
+/LDPP-API/Features/*.cs
+/LDPP-API/bin
+/LDPP-API/obj
+/LDPP-API.IsolatorCache.user

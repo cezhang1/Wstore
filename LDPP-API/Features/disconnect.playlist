@@ -1,0 +1,36 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="LDPP-API" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="LDPP_API.Features" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="LDPPexampleFeature" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="LDPP_API.Features.LDPPexampleFeature.FTest_Disconnect" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="FTest_Disconnect" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="LDPP_API.Features.LDPPexampleFeature.GTest_CloseAllWindows" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="GTest_CloseAllWindows" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>

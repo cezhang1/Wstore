@@ -1,0 +1,54 @@
+<Playlist Version="2.0">
+  <Rule Name="Includes" Match="Any">
+    <Rule Match="All">
+      <Property Name="Solution" />
+      <Rule Match="Any">
+        <Rule Match="All">
+          <Property Name="Project" Value="LDPP-API" />
+          <Rule Match="Any">
+            <Rule Match="All">
+              <Property Name="Namespace" Value="LDPP_API.Features" />
+              <Rule Match="Any">
+                <Rule Match="All">
+                  <Property Name="Class" Value="LDPPexampleFeature" />
+                  <Rule Match="Any">
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="LDPP_API.Features.LDPPexampleFeature.ATest_Init_Exe" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ATest_Init_Exe" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="LDPP_API.Features.LDPPexampleFeature.BIs_Open_LdppPlugin" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="BIs_Open_LdppPlugin" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="LDPP_API.Features.LDPPexampleFeature.CTest_Connect_Start" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="CTest_Connect_Start" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="LDPP_API.Features.LDPPexampleFeature.DIsDiscoverDevic" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="DIsDiscoverDevic" />
+                      </Rule>
+                    </Rule>
+                    <Rule Match="All">
+                      <Property Name="TestWithNormalizedFullyQualifiedName" Value="LDPP_API.Features.LDPPexampleFeature.ETest_Connect_CreateAP" />
+                      <Rule Match="Any">
+                        <Property Name="DisplayName" Value="ETest_Connect_CreateAP" />
+                      </Rule>
+                    </Rule>
+                  </Rule>
+                </Rule>
+              </Rule>
+            </Rule>
+          </Rule>
+        </Rule>
+      </Rule>
+    </Rule>
+  </Rule>
+</Playlist>
